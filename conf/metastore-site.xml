@@ -52,5 +52,10 @@
         <name>fs.s3a.path.style.access</name>
         <value>true</value>
     </property>
+	<property>
+        <name>metastore.storage.schema.reader.impl</name>
+        <!-- <value>org.apache.hadoop.hive.metastore.SerDeStorageSchemaReader​</value> -->
+		<value>org.apache.hadoop.hive.metastore.DefaultStorageSchemaReader​</value>
+    </property>
 
 </configuration>
